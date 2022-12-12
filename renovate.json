@@ -3,8 +3,9 @@
   "extends": ["config:base", ":disableDependencyDashboard"],
   "packageRules": [
     {
+      "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non major dependencies",
+      "groupName": "all non major NPM dependencies",
       "groupSlug": "all-minor-patch"
     },
     {
