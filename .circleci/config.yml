@@ -183,7 +183,7 @@ workflows:
 #          jira_env_type: staging
 #          context:
 #            - hmpps-common-vars
-#            - hmpps-template-typescript-preprod
+#            - renovate-typescript-poc-preprod
 #          requires:
 #            - request-preprod-approval
 #          helm_timeout: 5m
@@ -200,7 +200,7 @@ workflows:
 #          slack_channel_name: << pipeline.parameters.releases-slack-channel >>
 #          context:
 #            - hmpps-common-vars
-#            - hmpps-template-typescript-prod
+#            - renovate-typescript-poc-prod
 #          requires:
 #            - request-prod-approval
 #          helm_timeout: 5m
@@ -208,7 +208,7 @@ workflows:
   security:
     triggers:
       - schedule:
-          cron: "30 5 * * 1-5"
+          cron: "46 5 * * 1-5"
           filters:
             branches:
               only:
@@ -233,7 +233,7 @@ workflows:
   security-weekly:
     triggers:
       - schedule:
-          cron: "0 5 * * 1"
+          cron: "37 5 * * 1"
           filters:
             branches:
               only:
