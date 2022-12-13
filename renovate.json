@@ -4,19 +4,20 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non major NPM dependencies",
-      "groupSlug": "all-npm-minor-patch"
+      "groupSlug": "all-npm-minor-patch",
+      "stabilityDays": 3
     },
     {
       "matchManagers": ["helmv3"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non major Helm dependencies",
       "groupSlug": "all-helm-minor-patch"
-    },
-    {
-      "matchManagers": ["npm"],
-      "rangeStrategy": "bump"
     },
     {
       "matchDatasources": ["npm"],
