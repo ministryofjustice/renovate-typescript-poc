@@ -17,6 +17,20 @@
     {
       "matchManagers": ["npm"],
       "rangeStrategy": "bump"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["npm"],
+      "allowedVersions": "8"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "allowedVersions": "18.12-bullseye-slim"
+    },
+    {
+      "matchDatasources": ["orb"],
+      "matchPackageNames": ["cimg/node"],
+      "allowedVersions": "18.12-browsers"
     }
   ],
   "rebaseWhen": "behind-base-branch",
