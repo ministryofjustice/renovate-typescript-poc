@@ -20,5 +20,5 @@
     }
   ],
   "rebaseWhen": "behind-base-branch",
-  "reviewers": ["ministryofjustice:hmpps-incentives"]
+  "reviewers": ["team:hmpps-incentives"]
 }
