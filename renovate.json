@@ -9,7 +9,7 @@
       "groupSlug": "all-npm-minor-patch"
     },
     {
-      "matchManagers": ["helm"],
+      "matchManagers": ["helmv3"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non major Helm dependencies",
       "groupSlug": "all-helm-minor-patch"
