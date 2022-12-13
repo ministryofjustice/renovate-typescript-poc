@@ -6,7 +6,13 @@
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non major NPM dependencies",
-      "groupSlug": "all-minor-patch"
+      "groupSlug": "all-npm-minor-patch"
+    },
+    {
+      "matchManagers": ["helm"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non major Helm dependencies",
+      "groupSlug": "all-helm-minor-patch"
     },
     {
       "matchManagers": ["npm"],
