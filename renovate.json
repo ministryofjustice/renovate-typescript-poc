@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>ministryofjustice/hmpps-renovate-config:node#0.0.1"],
+  "extends": ["github>ministryofjustice/hmpps-renovate-config:node#0.0.3"],
   "packageRules": [
     {
       "matchManagers": ["npm"],
@@ -21,6 +21,5 @@
     }
   ],
   "rebaseWhen": "behind-base-branch",
-  "reviewers": ["team:hmpps-incentives"],
-  "printConfig": true
+  "reviewers": ["team:hmpps-incentives"]
 }
