@@ -21,5 +21,18 @@
     }
   ],
   "prCreation": "immediate",
-  "reviewers": ["team:hmpps-incentives"]
+  "reviewers": ["team:hmpps-incentives"],
+  "regexManagers": [
+    {
+      "description": "Update hmpps-renovate-config tag in renovate.json",
+      "fileMatch": ["renovate.json"],
+      "matchStrings": [".*jvm#(?<currentValue>.*).*", ".*node#(?<currentValue>.*).*"],
+      "matchStringsStrategy": "any",
+      "depNameTemplate": "hmpps-renovate-config",
+      "packageNameTemplate": "https://github.com/ministryofjustice/hmpps-renovate-config",
+      "lookupNameTemplate": "ministryofjustice/hmpps-renovate-config",
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "semver"
+    }
+  ]
 }
