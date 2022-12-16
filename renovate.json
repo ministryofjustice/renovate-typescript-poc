@@ -20,6 +20,6 @@
       "groupSlug": "all-helm-minor-patch"
     }
   ],
-  "rebaseWhen": "behind-base-branch",
+  "prCreation": "not-pending",
   "reviewers": ["team:hmpps-incentives"]
 }
