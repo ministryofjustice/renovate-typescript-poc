@@ -20,6 +20,6 @@
       "groupSlug": "all-helm-minor-patch"
     }
   ],
-  "prCreation": "not-pending",
+  "prCreation": "immediate",
   "reviewers": ["team:hmpps-incentives"]
 }
