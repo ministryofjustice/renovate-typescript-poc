@@ -28,11 +28,8 @@
       "fileMatch": ["renovate.json"],
       "matchStrings": [".*jvm#(?<currentValue>.*).*", ".*node#(?<currentValue>.*).*"],
       "matchStringsStrategy": "any",
-      "depNameTemplate": "hmpps-renovate-config",
-      "packageNameTemplate": "https://github.com/ministryofjustice/hmpps-renovate-config",
-      "lookupNameTemplate": "ministryofjustice/hmpps-renovate-config",
-      "datasourceTemplate": "github-tags",
-      "versioningTemplate": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?<prerelease>\\w+)?$"
+      "depNameTemplate": "ministryofjustice/hmpps-renovate-config",
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
