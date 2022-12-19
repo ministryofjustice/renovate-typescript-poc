@@ -21,7 +21,7 @@
     }
   ],
   "prCreation": "immediate",
-  "reviewers": ["team:hmpps-incentives"],
+  "reviewers": ["team:hmpps-incentives, neilmendum"],
   "additionalReviewers": ["team:hmpps-incentives"],
   "regexManagers": [
     {
