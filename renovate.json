@@ -25,8 +25,8 @@
   "regexManagers": [
     {
       "description": "Update hmpps-renovate-config tag in renovate.json",
-      "fileMatch": ["renovate.json"],
-      "matchStrings": [".*jvm#(?<currentValue>.*).*", ".*node#(?<currentValue>.*).*"],
+      "fileMatch": ["^renovate\\.json%"],
+      "matchStrings": ["\"github>ministryofjustice/hmpps-renovate-config:node#(?<currentValue>[^\" \\n\\(]+)"],
       "matchStringsStrategy": "any",
       "depNameTemplate": "ministryofjustice/hmpps-renovate-config",
       "datasourceTemplate": "github-tags"
