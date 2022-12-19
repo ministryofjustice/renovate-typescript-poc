@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>ministryofjustice/hmpps-renovate-config:node#0.0.6"],
+  "extends": ["github>ministryofjustice/hmpps-renovate-config:node#0.0.5"],
   "packageRules": [
     {
       "matchManagers": ["npm"],
@@ -26,7 +26,7 @@
     {
       "description": "Update hmpps-renovate-config tag in renovate.json",
       "fileMatch": ["^renovate\\.json%"],
-      "matchStrings": ["\"github>ministryofjustice/hmpps-renovate-config:node#(?<currentValue>[^\" \\n\\(]+)"],
+      "matchStrings": ["\"github>ministryofjustice/hmpps-renovate-config:node#(?<currentValue>.*?)\\n"],
       "matchStringsStrategy": "any",
       "depNameTemplate": "ministryofjustice/hmpps-renovate-config",
       "datasourceTemplate": "github-tags"
