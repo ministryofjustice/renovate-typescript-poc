@@ -12,12 +12,6 @@
       "groupName": "all non major NPM dependencies",
       "groupSlug": "all-npm-minor-patch",
       "stabilityDays": 1
-    },
-    {
-      "matchManagers": ["helmv3"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non major Helm dependencies",
-      "groupSlug": "all-helm-minor-patch"
     }
   ],
   "prCreation": "immediate",
