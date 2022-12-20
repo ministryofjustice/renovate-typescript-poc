@@ -15,8 +15,7 @@
     }
   ],
   "prCreation": "immediate",
-  "reviewers": ["team:hmpps-incentives, neilmendum"],
-  "additionalReviewers": ["team:hmpps-incentives"],
+  "reviewers": ["neilmendum"],
   "regexManagers": [
     {
       "description": "Update hmpps-renovate-config tag in renovate.json",
