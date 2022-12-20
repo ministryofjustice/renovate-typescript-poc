@@ -16,6 +16,7 @@
   ],
   "prCreation": "immediate",
   "reviewers": ["neilmendum"],
+  "assignees": ["neilmendum"],
   "regexManagers": [
     {
       "description": "Update hmpps-renovate-config tag in renovate.json",
