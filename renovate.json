@@ -14,7 +14,7 @@
     }
   ],
   "prCreation": "immediate",
-  "reviewers": ["neilmendum", "@ministryofjustice/hmpps-incentives"],
+  "reviewers": ["neilmendum", "ministryofjustice/hmpps-incentives"],
   "regexManagers": [
     {
       "description": "Update hmpps-renovate-config tag in renovate.json",
