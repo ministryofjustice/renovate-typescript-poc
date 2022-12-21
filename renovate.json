@@ -5,18 +5,10 @@
     {
       "matchManagers": ["npm"],
       "rangeStrategy": "bump"
-    },
-    {
-      "matchManagers": ["npm"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non major NPM dependencies",
-      "groupSlug": "all-npm-minor-patch",
-      "stabilityDays": 1
     }
   ],
   "prCreation": "immediate",
   "reviewers": ["neilmendum"],
-  "assignees": ["neilmendum"],
   "regexManagers": [
     {
       "description": "Update hmpps-renovate-config tag in renovate.json",
