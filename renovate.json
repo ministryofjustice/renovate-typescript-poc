@@ -10,7 +10,8 @@
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non major NPM dependencies",
-      "groupSlug": "all-npm-minor-patch"
+      "groupSlug": "all-npm-minor-patch",
+      "stabilityDays": 3
     }
   ],
   "prCreation": "immediate",
@@ -24,5 +25,6 @@
       "depNameTemplate": "ministryofjustice/hmpps-renovate-config",
       "datasourceTemplate": "github-tags"
     }
-  ]
+  ],
+  "dependencyDashboard": true
 }
