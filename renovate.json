@@ -26,5 +26,6 @@
       "datasourceTemplate": "github-tags"
     }
   ],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}"
 }
