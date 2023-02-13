@@ -27,5 +27,5 @@
     }
   ],
   "dependencyDashboard": true,
-  "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}"
+  "prBodyTemplate": "{{{table}}}{{{notes}}}{{{controls}}}"
 }
