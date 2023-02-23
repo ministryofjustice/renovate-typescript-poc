@@ -7,6 +7,12 @@
       "rangeStrategy": "bump"
     },
     {
+      "matchManagers": ["orb"],
+      "matchPackageNames": ["hmpps"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "enabled": false
+    },
+    {
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non major NPM dependencies",
@@ -27,5 +33,5 @@
     }
   ],
   "dependencyDashboard": true,
-  "prBodyTemplate": "{{{table}}}{{{notes}}}{{{controls}}}"
+  "prBodyTemplate": "{{{table}}}{{{notes}}}{{{warnings}}}{{{controls}}}"
 }
