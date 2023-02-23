@@ -7,7 +7,7 @@
       "rangeStrategy": "bump"
     },
     {
-      "matchManagers": ["orb"],
+      "matchDatasources": ["orb"],
       "matchPackageNames": ["hmpps"],
       "matchUpdateTypes": ["minor", "patch"],
       "enabled": false
